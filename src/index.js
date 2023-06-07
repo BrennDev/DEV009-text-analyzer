@@ -4,6 +4,8 @@ import analyzer from './analyzer.js';
 const textArea= document.getElementsByName('contenido')[0];
 textArea.addEventListener('input',() => {
     const value = textArea.value;
-    document.getElementsByName('wordCounter')[0].innerHTML='Recuento de palabras: '+analyzer.getWordCount(value) 
+    document.getElementsByClassName('wordCounter')[0].innerHTML='Palabras: '+analyzer.getWordCount(value) 
+    document.getElementsByClassName('characterCounter')[0].innerHTML='Caracteres: '+analyzer.getCharacterCount(value)
+    document.getElementsByClassName('characterCounterExcluding')[0].innerHTML='Caracteres sin espacios: '+analyzer.getCharacterCountExcludingSpaces(value)  
 });
 

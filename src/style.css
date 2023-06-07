@@ -1,0 +1,10 @@
+body{
+    background-color: #cbdddf;
+}
+.container{
+    display:grid;
+    place-items: center;
+}
+.containerContent{
+    margin: auto;
+}
