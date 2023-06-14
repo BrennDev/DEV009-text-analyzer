@@ -16,6 +16,16 @@ header h1 {
     letter-spacing: 5px;
     text-align: center;
 }
+
+h2 {
+    margin: 0;
+    background-color: #2c2c2c;
+    color: white;
+    padding: auto;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-align: center;
+}
 #form {
     display:flex;
     justify-content: center;
@@ -25,17 +35,23 @@ header h1 {
 
 .user-input  {
   font-style: oblique;
+  font-size: 30px;
     
 }
-
+#button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  
+}
 #reset-button {
-        background-color: #7f5c45;
+    background-color: #7f5c45;
     width: 250px;
     padding: 5px;
     color: #fff;
     border-radius: 6px;
     font-size: 1.3rem;
-    font-style: oblique;
+    font-style:oblique;
     letter-spacing: 1px;
     border-color: #7f5c45;
     
@@ -45,15 +61,13 @@ ul{
     list-style-type: none;
     background-color: #fff4ed;
     border: solid 1px #fff4ed;
-    
 }
 
 li {
     border-bottom: solid 1px #fff4ed;
     padding: 10px;
-    font-size: 1.5rem;
-    
-    
+    font-size: 25px;
+    letter-spacing: 3px;
 }
 
 footer {
@@ -66,6 +80,7 @@ footer {
 }
 
 footer p {
-    font-size: 2rem;
-    text-align: right;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-align: center;
 }

@@ -15,24 +15,27 @@
   <header>
     <h1>ANALIZADOR DE TEXTOS</h1>
   </header> 
+    <h2>Ingrese el texto para obtener métricas</h2>
+    <br/> <br/>
   <div id="form">
     <br/>   
-    <textarea name="user-input" placeholder="Ingrese texto...." rows="15" cols="80"></textarea>
-     <br/>
-    
-    <ul>
-      <li class="wordCounter">Palabras:0 </li>
+    <textarea name="user-input" placeholder="Ingrese texto...." rows="20" cols="70"></textarea>
+    <br/>
+    <ul class="Listado">
       <li class="characterCounter">Caracteres:0 </li>
       <li class="characterCounterExcluding">Caracteres sin espacios:0 </li>
-      <li class="averageWordLength">Promedio de longitud:0</li>
+      <li class="wordCounter">Palabras:0 </li>
       <li class="numberCounter">Números:0</li>
       <li class="numberSum">Suma de números:0</li>
-  </ul>
+      <li class="averageWordLength">Promedio de longitud:0</li>
+    </ul>
   </div>
-  <button id="reset-button">Limpiar </button>
+  <div id="button">
+    <button id="reset-button">Limpiar métricas </button>
+  </div>
   <footer>
     <br/>
-    <p>Desarrollado por: Brenda Bautista</p>
+    <p>Desarrollado por Brenda Bautista   </p>
   </footer>
   <script src="index.js" type="module"></script>
 </body>
