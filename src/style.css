@@ -8,7 +8,7 @@ body{
 header{
     background-color: #c6a793;
     color: white;
-    padding: 1rem 1rem;
+    padding: 1rem;
 }
 
 header h1 {
@@ -33,17 +33,18 @@ h2 {
     height: 100%;
 }
 
-.user-input  {
+textarea[name="user-input"]  {
   font-style: oblique;
-  font-size: 30px;
-    
+  font-size: 15px;
 }
+
 #button{
     display:flex;
     justify-content: center;
     align-items: center;
     height: 100%;  
 }
+
 #reset-button {
     background-color: #7f5c45;
     width: 250px;
@@ -57,13 +58,48 @@ h2 {
     
 }
 
-ul{
+.List {
     list-style-type: none;
     background-color: #fff4ed;
     border: solid 1px #fff4ed;
 }
 
-li {
+.characterCounter {
+    border-bottom: solid 1px #fff4ed;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.characterCounterExcluding {
+    border-bottom: solid 1px #fff4ed;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.wordCounter {
+    border-bottom: solid 1px #fff4ed;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.numberCounter {
+    border-bottom: solid 1px #fff4ed;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.numberSum {
+    border-bottom: solid 1px #fff4ed;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.averageWordLength {
     border-bottom: solid 1px #fff4ed;
     padding: 10px;
     font-size: 25px;

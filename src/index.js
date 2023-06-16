@@ -16,8 +16,8 @@ const resetButton=document.getElementById('reset-button');
 resetButton.addEventListener('click',resetAll);
 
 function resetAll(){
-  document.getElementsByName('user-input')[0].value=" ";
-  document.getElementsByClassName('wordCounter')[0].innerHTML='Palabras: 0'; 
+  document.getElementsByName('user-input')[0].value="";
+  document.querySelector('.wordCounter').innerHTML='Palabras: 0'; 
   document.getElementsByClassName('characterCounter')[0].innerHTML='Caracteres: 0';
   document.getElementsByClassName('characterCounterExcluding')[0].innerHTML='Caracteres sin espacios: 0';
   document.getElementsByClassName('averageWordLength')[0].innerHTML='Promedio de longitud: 0';
