@@ -4,13 +4,9 @@
 * [1. Información del sitio Web "Analizador de Textos"](#1-información-del-sitio-web-"analizador-de-textos")
 * [2. Funcionalidad](#2-funcionalidad)
 * [3. Pruebas unitarias](#3-pruebas-unitarias)
-* [4. Deply](#4-deploy)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pruebas](#6-pruebas)
-* [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
-* [8. Consideraciones para pedir tu Project Feedback](#8-consideraciones-para-pedir-tu-project-feedback)
-* [9. Objetivos de aprendizaje](#9-objetivos-de-aprendizaje)
-* [10. Funcionalidades opcionales](#10-funcionalidades-opcionales)
+* [4. Deploy](#4-deploy)
+* [5. Prototio de baja fidelidad](#5-prototipo-de-baja-fidelidad)
+* [6. Planeación](#6-planeación)
 
 ***
 ## 1. Información del sitio Web "Analizador de Textos"
